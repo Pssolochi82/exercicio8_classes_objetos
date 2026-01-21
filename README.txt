@@ -121,6 +121,24 @@ Ficheiros:
 Como executar os testes do exercício 8:
 python -m unittest test_termostato.py
 
+----------------------------------------
+EXERCÍCIO 9 – CLASSE LOJA
+
+Implementação de uma classe Loja com:
+- Gestão de produtos (código, nome, preço e stock)
+- Validações de dados
+- Realização de vendas com controlo de stock
+- Relatório de vendas e valor total em stock
+- Listagem de produtos em formato de tabela
+
+Ficheiros:
+- ex9_classe_loja.py  -> implementação da classe
+- test_loja.py       -> testes unitários com unittest
+
+Como executar os testes do exercício 9:
+python -m unittest test_loja.py
+
+
 
 
 
