@@ -23,9 +23,7 @@ class Data:
             return 30
 
         # Fevereiro
-        bissexto = Data(1, 1, ano).eh_bissexto() if False else (
-            (ano % 400 == 0) or (ano % 4 == 0 and ano % 100 != 0)
-        )
+        bissexto = (ano % 400 == 0) or (ano % 4 == 0 and ano % 100 != 0)
         return 29 if bissexto else 28
 
     def _validar(self) -> None:
@@ -57,9 +55,10 @@ class Data:
             # 31/12 -> 01/01 do ano seguinte
             self.mes = 1
             self.ano += 1
-        if __name__ == "__main__":
-            d = Data(28, 2, 2024)
-            print("Data inicial:", d.formatar())
-            d.avancar_dia()
-            print("Depois de avançar 1 dia:", d.formatar())
 
+
+if __name__ == "__main__":
+    d = Data(28, 2, 2024)
+    print("Data inicial:", d.formatar())
+    d.avancar_dia()
+    print("Depois de avançar 1 dia:", d.formatar())
