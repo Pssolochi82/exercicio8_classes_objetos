@@ -49,4 +49,21 @@ Ficheiros:
 Como executar os testes do exercício 4:
 python -m unittest test_vendedor.py
 
+----------------------------------------
+EXERCÍCIO 5 – CLASSE TRIANGULO
+
+Implementação de uma classe Triangulo com:
+- Validação da desigualdade triangular
+- Classificação do tipo de triângulo
+- Verificação se é triângulo retângulo (Pitágoras)
+- Cálculo da área pela fórmula de Heron
+
+Ficheiros:
+- ex5_classe_triangulo.py  -> implementação da classe
+- test_triangulo.py       -> testes unitários com unittest
+
+Como executar os testes do exercício 5:
+python -m unittest test_triangulo.py
+
+
 
