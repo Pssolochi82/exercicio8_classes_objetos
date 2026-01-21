@@ -65,5 +65,25 @@ Ficheiros:
 Como executar os testes do exercício 5:
 python -m unittest test_triangulo.py
 
+----------------------------------------
+EXERCÍCIO 6 – CLASSE PLAYLIST
+
+Implementação de uma classe Playlist com:
+- Gestão de músicas (título e duração)
+- Validação de duração positiva
+- Prevenção de músicas duplicadas
+- Remoção de músicas por título
+- Cálculo da duração total formatada (mm:ss)
+- Seleção de música aleatória
+- Listagem numerada das músicas
+
+Ficheiros:
+- ex6_classe_playlist.py  -> implementação da classe
+- test_playlist.py       -> testes unitários com unittest
+
+Como executar os testes do exercício 6:
+python -m unittest test_playlist.py
+
+
 
 
