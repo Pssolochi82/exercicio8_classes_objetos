@@ -13,3 +13,21 @@ Ficheiros:
 
 Como executar os testes do exercício 2:
 python -m unittest test_aluno_provas.py
+
+----------------------------------------
+EXERCÍCIO 3 – CLASSE CELULAR
+
+Implementação de uma classe Celular com:
+- Controlo de bateria (0 a 100%)
+- Simulação de chamadas (5% por minuto)
+- Encerramento de chamadas
+- Carregamento de bateria
+- Consulta de estado atual
+
+Ficheiros:
+- ex3_classe_celular.py  -> implementação da classe
+- test_celular.py       -> testes unitários com unittest
+
+Como executar os testes do exercício 3:
+python -m unittest test_celular.py
+
