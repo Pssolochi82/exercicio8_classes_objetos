@@ -31,3 +31,22 @@ Ficheiros:
 Como executar os testes do exercício 3:
 python -m unittest test_celular.py
 
+
+----------------------------------------
+EXERCÍCIO 4 – CLASSE VENDEDOR
+
+Implementação de uma classe Vendedor com:
+- Registo de vendas mensais
+- Definição de meta de vendas
+- Cálculo de comissão apenas sobre excedente
+- Verificação de meta atingida
+- Emissão de relatório completo
+
+Ficheiros:
+- ex4_classe_vendedor.py  -> implementação da classe
+- test_vendedor.py       -> testes unitários com unittest
+
+Como executar os testes do exercício 4:
+python -m unittest test_vendedor.py
+
+
