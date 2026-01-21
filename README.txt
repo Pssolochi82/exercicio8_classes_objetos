@@ -138,6 +138,30 @@ Ficheiros:
 Como executar os testes do exercício 9:
 python -m unittest test_loja.py
 
+----------------------------------------
+EXERCÍCIO 10 – CLASSE TABULEIRO (DAMAS BÁSICO)
+
+Implementação de um tabuleiro de damas 8x8 com:
+- Inicialização automática das peças
+- Movimento diagonal simples
+- Captura de peças adversárias
+- Controlo do número de peças
+- Verificação de vitória
+- Listagem de movimentos possíveis
+
+Representação:
+- 'B' → peça branca
+- 'P' → peça preta
+- ' ' → casa vazia
+
+Ficheiros:
+- ex10_tabuleiro_damas.py   -> implementação do tabuleiro
+- test_tabuleiro_damas.py  -> testes unitários (unittest)
+
+Execução dos testes:
+python -m unittest test_tabuleiro_damas.py
+
+
 
 
 
