@@ -104,6 +104,24 @@ Ficheiros:
 Como executar os testes do exercício 7:
 python -m unittest test_voo.py
 
+----------------------------------------
+EXERCÍCIO 8 – CLASSE TERMOSTATO
+
+Implementação de uma classe Termostato com:
+- Controlo manual e automático de temperatura
+- Limites mínimo (10°C) e máximo (30°C)
+- Sistema liga/desliga
+- Regulação automática gradual da temperatura
+- Mensagens de estado detalhadas
+
+Ficheiros:
+- ex8_classe_termostato.py  -> implementação da classe
+- test_termostato.py       -> testes unitários com unittest
+
+Como executar os testes do exercício 8:
+python -m unittest test_termostato.py
+
+
 
 
 
